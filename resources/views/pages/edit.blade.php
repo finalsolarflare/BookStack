@@ -1,7 +1,8 @@
 @extends('layouts.base')
 
 @section('head')
-    <script src="{{ url('/libs/tinymce/tinymce.min.js?ver=4.9.4') }}" nonce="{{ $cspNonce }}"></script>
+    <!-- <script src="{{ url('/libs/tinymce/tinymce.min.js?ver=4.9.4') }}" nonce="{{ $cspNonce }}"></script> -->
+    <script src="{{ url('/libs/tinymce-v5/tinymce.min.js') }}" nonce="{{ $cspNonce }}"></script>
 @stop
 
 @section('body-class', 'flexbox')
